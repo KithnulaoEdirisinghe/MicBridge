@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F3F5F9</color>
+    <color name="card">#FFFFFF</color>
+    <color name="text">#111827</color>
+    <color name="text2">#5B6472</color>
+    <color name="accent">#2563EB</color>
+    <color name="danger">#D92D20</color>
+    <color name="track">#E3E7ED</color>
+    <color name="level">#16A34A</color>
+    <color name="on_accent">#FFFFFF</color>
+    <bool name="light_bars">true</bool>
+</resources>

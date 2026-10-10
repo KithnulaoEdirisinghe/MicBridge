@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MicBridge</string>
+    <string name="tagline">A wireless microphone for your PC, over Wi-Fi</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <string name="status_stopped">Stopped</string>
+    <string name="status_waiting">Waiting for your PC</string>
+    <string name="status_streaming">Live on %1$s</string>
+    <string name="detail_stopped">Tap Start, then open MicBridge on your PC.</string>
+    <string name="detail_waiting">Open MicBridge on your PC and click Connect. No cable needed.</string>
+    <string name="detail_streaming">Your PC is using this phone\'s microphone.</string>
+    <string name="detail_muted">Muted. Your PC hears silence.</string>
+    <string name="start_failed">Android did not allow the microphone service to start. Please try again.</string>
+
+    <string name="address_label">This phone\'s address</string>
+    <string name="address_hint">Your PC finds this phone by itself when both use the same Wi-Fi router (the PC may be wired to it). If it does not, type this address into MicBridge on the PC.</string>
+    <string name="no_network">Not connected to Wi-Fi</string>
+
+    <string name="mute">Mute microphone</string>
+    <string name="awake">Keep screen on while running</string>
+    <string name="mode_label">Microphone mode</string>
+    <string-array name="modes">
+        <item>Standard</item>
+        <item>Voice chat (echo and noise reduction)</item>
+        <item>Raw (no processing)</item>
+    </string-array>
+
+    <string name="allow_title">Allow this computer?</string>
+    <string name="allow_message">%1$s (%2$s) wants to use this phone as its microphone.\n\nIf you allow it, this computer can connect again later without asking.</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+
+    <string name="perm_title">Microphone permission needed</string>
+    <string name="perm_message">MicBridge sends this phone\'s microphone to your PC, so it cannot work without the microphone permission.</string>
+    <string name="open_settings">Open settings</string>
+
+    <string name="channel_name">Microphone status</string>
+    <string name="notif_waiting">Waiting for your PC</string>
+    <string name="notif_pending">A computer is asking to connect. Tap to answer.</string>
+    <string name="notif_streaming">Microphone is live on %1$s</string>
+</resources>

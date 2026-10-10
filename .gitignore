@@ -1,0 +1,10 @@
+# The key that signs the Android app. Never publish it: whoever holds it can ship updates over an installed copy.
+android/signing/
+
+# Build leftovers
+android/build/
+dist/*.old.exe
+
+# Windows clutter
+Thumbs.db
+desktop.ini
